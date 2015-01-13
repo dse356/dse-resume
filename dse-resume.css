@@ -1,0 +1,45 @@
+/*
+---------------------------------------------------------------------------------
+    HTML Resume
+
+    Version: 15.1.12
+
+    Written: David Erickson
+---------------------------------------------------------------------------------
+*/
+
+        body { font-family: Georgia, sans-serif; }
+        #inner { padding: 2em; background: #F0EBE6; border: solid #666; border-width: 2px 0 2px 0; }
+
+/* //-- header -- */
+        #header { margin: 1em 0 1em 0; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+        #header h1 { font-size: 300%; letter-spacing: 2px; }
+        #header h2 { font-size: 160%; letter-spacing: 2px; }
+        #header h3 { font-size: 125%; letter-spacing: 2px; float: right; }
+        #header h4 { font-size: 100%; float: right; text-decoration: none; }
+        .contact { margin-top: 7px; float: right; }
+
+/* //-- main -- */
+        h1, h2, h3, h4 { color: #333; }
+        h2 { font-size: 160%; }
+        h4 { font-size: 115%; float: right; }
+        p { font-size: 110%; line-height: 1.25em; padding-right: 5em; }
+        a { color: #990003; text-decoration: none; line-height: 1.25em; }
+        h3.enlarge { font-size: 125%; padding-right: 5em; line-height: 1.5em; }
+        p.enlarge { font-size: 135%; padding-right: 5em; line-height: 1.5em; }
+
+/* //-- divisions -- */
+        .tasks { position: relative; margin-bottom: 1em; padding-bottom: 0; border-bottom: 1px solid #ccc; }
+        .tasks h3 { font-style: italic; }
+        .tasks h4 { position: absolute; top: 0.35em; right: 0; }
+        .tasks p { margin: 1em 0 1em 0; }
+        .skills { width: 25%; float: left }
+        .skills h2 { margin-bottom: 6px; }
+        .skills li { line-height: 24px; border-bottom: 1px solid #ccc; }
+
+/* --// overrides -- */
+        .yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+        .yui-gf .yui-u { width: 82.5%; }
+        .yui-gf div.first { width: 12.5%; }
+        .first h2 { font-style: italic; }
+        .last { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
